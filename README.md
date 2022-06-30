@@ -6,3 +6,4 @@ The game "works" in a really bad way because it has to check for collisions from
 Then there is the movement, the tetris piece needs to go down every amount of time but you still should be able to move it left and right. Sometimes there is an error that occurs when both checking on the sides to move left or right and the down movement happen at the same frame.<br />
 Then there is the rotation problem, shloud I just hardcode 4 different cases for almost every piece of tetris based on it's rotation? And what about the blocks disappearing when a line is formed? Yeah to do all of that I should just have used a grid.<br />
 For now I'll just keep this as an example of why I should plan things before coding them.<br />
+The C# script is at /scuffed_tetris/Assets/Scripts/PieceSpawner.cs
